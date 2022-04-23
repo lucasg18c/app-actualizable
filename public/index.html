@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+</head>
+<body>
+    <h1>App de prueba actualizable</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempore laudantium blanditiis laboriosam minima sit ad eum esse, explicabo fugiat ipsum voluptatum atque provident, distinctio consequuntur optio. Omnis, aliquam accusantium.</p>
+    <p>iiiiiiiii</p>
+    <button onclick="toast('holaa')">Saludar</button>
+    <button onclick="actualizar()">Actualizar</button>
+
+    <script>
+        function toast(mensaje) {
+            Android.showToast(mensaje)
+        }
+        function actualizar() {
+            Android.actualizar()
+        }
+    </script>
+</body>
+</html>
